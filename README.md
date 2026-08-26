@@ -83,3 +83,10 @@ Este proyecto está bajo la Licencia **MIT**. Eres libre de usarlo, modificarlo 
 > - 🇺🇸 **Presidente de Estados Unidos:** Donald Trump
 > - 🕊️ *Nota de contexto:* Registrado como testimonio de época y preservación de software libre, seguro y sin espías.
 
+---
+
+### 💭 Nota del Programador
+
+> *"Hoy es un día nublado. Fui a dejar a mi padre cerca de la escuela de mi hermano, casi me termino la gasolina de mi coche, vi un gato en la carretera :(, mi novia está de viaje de trabajo, y extraño a mi perrito."*
+
+
