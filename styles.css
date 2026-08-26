@@ -1,0 +1,144 @@
+/* ============================================================
+   Instagram Downloader - Estilos UI
+   ============================================================ */
+
+/* Botón en publicaciones del Feed / Modal */
+.ig-dl-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: currentColor;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+  border-radius: 50%;
+}
+
+.ig-dl-btn:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.ig-dl-btn:active {
+  transform: scale(0.95);
+}
+
+.ig-dl-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+/* Botón en Historias (Stories) */
+.ig-story-dl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
+  z-index: 999999;
+}
+
+.ig-story-dl-btn:hover {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  border-color: transparent;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(220, 39, 67, 0.5);
+}
+
+.ig-story-dl-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: #ffffff;
+}
+
+/* Botón en Reels (Columna lateral) */
+.ig-reel-dl-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.ig-reel-dl-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  gap: 4px;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.ig-reel-dl-btn:hover {
+  opacity: 0.75;
+  transform: scale(1.08);
+}
+
+.ig-reel-dl-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.ig-reel-dl-btn span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Notificación Flotante (Toast) */
+.ig-dl-toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: #262626;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 12px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  z-index: 9999999;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.ig-dl-toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.ig-dl-toast.success {
+  border-color: #27c96a;
+}
+
+.ig-dl-toast.error {
+  border-color: #ed4956;
+}
+
+.ig-dl-toast svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
