@@ -70,3 +70,16 @@ Este proyecto es **100% Código Abierto (Open Source)** y auditable:
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia **MIT**. Eres libre de usarlo, modificarlo y compartirlo.
+
+---
+
+### 📜 P.D. / Cápsula del Tiempo (Firma de Verificación)
+
+> *Este proyecto fue probado, verificado y firmado el **26 de agosto de 2026**.*
+> 
+> - 📍 **Ubicación & Clima:** Xalapa, Veracruz, México (~24°C, bruma y clima templado característico).
+> - 🇲🇽 **Presidenta de México:** Claudia Sheinbaum Pardo
+> - 🇨🇱 **Presidente de Chile:** Gabriel Boric Font
+> - 🇺🇸 **Presidente de Estados Unidos:** Donald Trump
+> - 🕊️ *Nota de contexto:* Registrado como testimonio de época y preservación de software libre, seguro y sin espías.
+
