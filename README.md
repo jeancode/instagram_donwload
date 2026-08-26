@@ -1,11 +1,17 @@
+<div align="center">
+
+<img src="icons/icon@512.png" width="120" height="120" alt="Instagram Downloader Logo" />
+
 # 📸 Instagram Media & Stories Downloader (Manifest V3)
 
-> **Extensión de navegador moderna, transparente y 100% segura para descargar Historias, Reels, Videos y Fotos de Instagram Web en un solo clic.**
+**Extensión de navegador moderna, transparente y 100% segura para descargar Historias, Reels, Videos y Fotos de Instagram Web en un solo clic.**
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Manifest](https://img.shields.io/badge/Manifest-V3-blue.svg)
-![Status](https://img.shields.io/badge/Estado-100%25%20Funcional-success.svg)
-![Security](https://img.shields.io/badge/Seguridad-Auditado%20%26%20Sin%20Telemetr%C3%ADa-brightgreen.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Manifest](https://img.shields.io/badge/Manifest-V3-blue.svg)](manifest.json)
+[![Status](https://img.shields.io/badge/Estado-100%25%20Funcional-success.svg)](#-estado-de-pruebas-y-verificación)
+[![Security](https://img.shields.io/badge/Seguridad-Auditado%20%26%20Sin%20Telemetr%C3%ADa-brightgreen.svg)](#-garantía-de-seguridad-y-privacidad-sin-espías-ni-código-malicioso)
+
+</div>
 
 ---
 
@@ -46,7 +52,10 @@ Este proyecto es **100% Código Abierto (Open Source)** y auditable:
 
 ## 🚀 Instalación Paso a Paso (Modo Desarrollador)
 
-1. **Descarga o clona** este repositorio en tu ordenador.
+1. **Descarga o clona** este repositorio en tu ordenador:
+   ```bash
+   git clone https://github.com/jeancode/instagram_donwload.git
+   ```
 2. Abre tu navegador y dirígete a:
    - **Google Chrome:** `chrome://extensions/`
    - **Microsoft Edge:** `edge://extensions/`
